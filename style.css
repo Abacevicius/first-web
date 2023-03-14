@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ border: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins' sans-serif ;
+}
+.navbar {
+  align-items: center;
+  width: auto;
+  display: flex;
+  background-color: #E6CCBE;
+}
+.products{
+ background-color: #E6CCBE;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+.card{
+ width: 300px;
+ height: min-content;
+ padding: 25px;
+ margin: 0 5px;
+ background-color: #fff;
+ border-radius: 15px;
+ box-shadow: 0 0 20px rgba(0,0,0,0.85) ;
+}
+.card .card-img{
+ width: 100%;
+ text-align: center;
+}
+.card .card-img img{
+ border-radius: 15px;
+ height: 200px;
+ margin: -150px 0 15px 0;
+ filter: drop-shadow(0 8px 8px #cdd5e2);
+ transition: 0.3s;
+}
+.card:hover .card-img img{
+  position: relative;
+  z-index: 1;
+height: 240px ;
+}
+.card .card-title h3{
+color: #1b2430 ;
+font-size: 28px;
+letter-spacing: -0.5px;
+}
+.card .card-details{
+ display: flex;
+ justify-content: space-between;
+ margin: 15px 0;
+}
+.card .card-details span{
+color: #b3bac3;
+font-size: 16px;
+}
+.card .card-title p{
+ color: #b3bac3;
+ font-size: 18px;
+ margin-top: -4px;
+ letter-spacing: -0.5px;
+}
+.card .card-detail p{
+ color:#1b2430 ;
+ font-size: 20px;
+ font-weight: 700;
+ margin-top: -2px;
+}
+.card button{
+width: 100%;
+height: 40px;
+color: #fff;
+background-color: #1b2430;
+border-radius: 5px;
+font-size: 18px;
+font-weight: 600;
+cursor: pointer;
+transition: 0.5s;
+}
+.card button:hover{
+ background-color: red;
+}
+.shopname {
+ display: inline;
+}
+
+.i {
+ display: inline;
+}
+.card-group{
+ border: none;
+border-radius: 15px;
+  background-color: #E6CCBE;
+}
+.card-title{
+ text-align: center;
+}
+.card-text{
+ text-align: center;
+}
+.gif{
+  border-radius: 10px;
+  width: auto;
+  height: 250px;
+}
+.services:hover{
+transform: scale(1.1);
+transition: .4s;
+}
+.services{
+  height: min-content;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.85);
+}
+h1 {
+  padding-top: 40px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+h1:hover {
+  position: relative;
+  transform: scale(1.2);
+  transition: 1.1s;
+  z-index: 1;
+}
